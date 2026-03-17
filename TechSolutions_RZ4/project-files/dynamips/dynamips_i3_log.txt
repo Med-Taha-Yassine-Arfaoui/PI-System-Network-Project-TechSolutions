@@ -1,0 +1,23 @@
+Jan 08 00:55:48.843 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 08 00:55:48.851 HYPERVISOR: Started on IP = 192.168.0.154, TCP port = 55412.
+Jan 08 00:55:49.363 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 08 00:55:49.368 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\yassi\GNS3\projects\TechSolutions_RZ4\project-files\dynamips 
+Jan 08 00:55:49.388 GENERAL: working_dir=C:\Users\yassi\GNS3\projects\TechSolutions_RZ4\project-files\dynamips
+Jan 08 00:55:49.389 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\yassi\GNS3\projects\TechSolutions_RZ4\project-files\dynamips\f72acfe9-4989-47b0-9dbf-1b9d7e8caeba 
+Jan 08 00:55:49.390 GENERAL: working_dir=C:\Users\yassi\GNS3\projects\TechSolutions_RZ4\project-files\dynamips\f72acfe9-4989-47b0-9dbf-1b9d7e8caeba
+Jan 08 00:55:49.391 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Jan 08 00:55:49.397 VM: VM R1 created.
+Jan 08 00:55:49.401 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Jan 08 00:55:49.402 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Jan 08 00:55:49.406 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jan 08 00:55:49.409 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Jan 08 00:55:49.412 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 08 00:55:49.413 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60c09aa0 
+Jan 08 00:55:49.417 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/yassi/GNS3/images/imagerouter/c3725-adventerprisek9-mz.124-15.T14.image 
+Jan 08 00:55:49.420 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c201.5bec.0000 
+Jan 08 00:55:49.424 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Jan 08 00:55:49.425 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Jan 08 00:55:57.105 HYPERVISOR: exec_cmd: nio create_udp udp-e465a348-cd1a-44d6-a202-dc006700490d 10002 127.0.0.1 10003 
+Jan 08 02:12:17.148 HYPERVISOR: Stopped.
+Jan 08 02:12:17.162 VM: VM R1 destroyed.
+Jan 08 02:12:17.174 GENERAL: reset done.

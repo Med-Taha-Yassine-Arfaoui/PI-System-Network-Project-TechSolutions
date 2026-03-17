@@ -1,0 +1,58 @@
+Nov 24 10:16:03.259 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 24 10:16:03.263 HYPERVISOR: Started on IP = 192.168.0.154, TCP port = 49771.
+Nov 24 10:16:03.710 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 24 10:16:03.713 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\yassi\GNS3\projects\TechSolutions_RZ4\project-files\dynamips 
+Nov 24 10:16:03.720 GENERAL: working_dir=C:\Users\yassi\GNS3\projects\TechSolutions_RZ4\project-files\dynamips
+Nov 24 10:16:03.720 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\yassi\GNS3\projects\TechSolutions_RZ4\project-files\dynamips\f72acfe9-4989-47b0-9dbf-1b9d7e8caeba 
+Nov 24 10:16:03.724 GENERAL: working_dir=C:\Users\yassi\GNS3\projects\TechSolutions_RZ4\project-files\dynamips\f72acfe9-4989-47b0-9dbf-1b9d7e8caeba
+Nov 24 10:16:03.724 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Nov 24 10:16:03.731 VM: VM R1 created.
+Nov 24 10:16:03.733 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Nov 24 10:16:03.733 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Nov 24 10:16:03.735 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Nov 24 10:16:03.737 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Nov 24 10:16:03.739 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 24 10:16:03.739 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60c09aa0 
+Nov 24 10:16:03.743 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/yassi/GNS3/images/imagerouter/c3725-adventerprisek9-mz.124-15.T14.image 
+Nov 24 10:16:03.747 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c201.5bec.0000 
+Nov 24 10:16:03.749 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Nov 24 10:16:03.751 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Nov 24 10:16:06.673 HYPERVISOR: exec_cmd: nio create_udp udp-f32c201d-5bcf-4ed1-b565-22144e1a0187 10002 127.0.0.1 10003 
+Nov 24 10:16:07.024 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-f32c201d-5bcf-4ed1-b565-22144e1a0187 
+Nov 24 10:16:07.024 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 24 10:16:07.816 HYPERVISOR: exec_cmd: nio create_udp udp-365b9006-c250-4399-a509-ed4598bd6598 10014 127.0.0.1 10015 
+Nov 24 10:16:07.832 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-365b9006-c250-4399-a509-ed4598bd6598 
+Nov 24 10:16:07.832 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 24 10:16:13.007 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Nov 24 10:16:13.007 VM: VM Ghost created.
+Nov 24 10:16:13.070 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/yassi/GNS3/images/imagerouter/c3725-adventerprisek9-mz.124-15.T14.image 
+Nov 24 10:16:13.076 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 24 10:16:13.076 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\yassi\GNS3\projects\TechSolutions_RZ4\project-files\dynamips\c3725-adventerprisek9-mz.124-15.T14.image-256.ghost 
+Nov 24 10:16:13.105 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Nov 24 10:16:13.117 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 24 10:16:13.119 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Nov 24 10:16:13.119 HYPERVISOR: exec_cmd: vm start Ghost 
+Nov 24 10:16:13.860 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 24 10:16:13.870 HYPERVISOR: exec_cmd: vm stop Ghost 
+Nov 24 10:16:14.024 VM: VM Ghost shutdown.
+Nov 24 10:16:14.026 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Nov 24 10:16:14.026 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Nov 24 10:16:14.026 VM: VM Ghost destroyed.
+Nov 24 10:16:14.068 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Nov 24 10:16:14.071 HYPERVISOR: exec_cmd: vm set_ghost_file R1 C:\Users\yassi\GNS3\projects\TechSolutions_RZ4\project-files\dynamips\c3725-adventerprisek9-mz.124-15.T14.image-256.ghost 
+Nov 24 10:16:14.071 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 24 10:16:14.071 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg 
+Nov 24 10:16:14.071 HYPERVISOR: exec_cmd: vm start R1 
+Nov 24 10:16:44.505 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 24 10:16:44.555 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 24 11:26:27.791 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 24 11:26:27.801 HYPERVISOR: exec_cmd: vm stop R1 
+Nov 24 11:26:27.948 VM: VM R1 shutdown.
+Nov 24 11:26:27.952 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 24 11:26:30.741 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Nov 24 11:26:30.777 HYPERVISOR: exec_cmd: vm set_ghost_file R1 C:\Users\yassi\GNS3\projects\TechSolutions_RZ4\project-files\dynamips\c3725-adventerprisek9-mz.124-15.T14.image-256.ghost 
+Nov 24 11:26:30.781 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 24 11:26:30.789 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg 
+Nov 24 11:26:30.822 HYPERVISOR: exec_cmd: vm start R1 
+Nov 24 11:27:01.488 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 24 11:27:01.497 HYPERVISOR: exec_cmd: vm extract_config R1 

@@ -1,0 +1,8 @@
+Jan 08 00:55:49.902 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 08 00:55:49.908 HYPERVISOR: Started on IP = 192.168.0.154, TCP port = 55416.
+Jan 08 00:55:50.212 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 08 00:55:50.213 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\yassi\GNS3\projects\TechSolutions_RZ4\project-files\dynamips 
+Jan 08 00:55:50.213 GENERAL: working_dir=C:\Users\yassi\GNS3\projects\TechSolutions_RZ4\project-files\dynamips
+Jan 08 00:55:50.214 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Jan 08 02:12:17.148 HYPERVISOR: Stopped.
+Jan 08 02:12:17.158 GENERAL: reset done.
