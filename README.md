@@ -116,8 +116,7 @@ Network Design • Dynamic Routing (OSPF) • VLSM • Linux Services • Firewa
 ## 📬 How to Explore
 
 1. Download the [PDF report](Final_Documentation.pdf)
-2. Check `screenshots/` folder for all figures
-3. Look at `configs/` for router & Linux configuration files
+2. Look at `configs/` for router & Linux configuration files
 
 ---
 
