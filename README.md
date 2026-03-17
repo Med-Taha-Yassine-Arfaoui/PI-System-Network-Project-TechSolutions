@@ -1,14 +1,19 @@
 <div align="center">
-  <h1>PI System & Network Project</h1>
-  <h3>TechSolutions SARL – Enterprise Network Infrastructure</h3>
-  <p><strong>ESPRIT • Academic Year 2025–2026</strong></p>
-</div>
+  <img src="https://i.imgur.com/YourLogoHere.png" width="180" alt="ESPRIT Logo">
+  <h1>PI System & Network Project – Phase 3</h1>
+  <h3>TechSolutions SARL – Multiservice Enterprise Network Infrastructure</h3>
 
+  [![GNS3](https://img.shields.io/badge/Simulated%20with-GNS3-FF4D00?style=for-the-badge&logo=gns3)](https://gns3.com)
+  [![Cisco](https://img.shields.io/badge/Routers-Cisco%20IOS-00A4EF?style=for-the-badge&logo=cisco)](https://cisco.com)
+  [![Linux](https://img.shields.io/badge/Services-Ubuntu%2022.04-E95420?style=for-the-badge&logo=ubuntu)](https://ubuntu.com)
+
+  <p><strong>Final Documentation • Academic Year 2025–2026</strong></p>
+</div>
 ---
 
 ## 📌 Repository Content
 
-- **Full Team Report** → [`HH-4_Final_Documentation.pdf`](Final_Documentation.pdf)
+- **Full Team Report** → [`Final_Documentation.pdf`](Final_Documentation.pdf)
 - **My Personal Module** → [`Yassine-Arfaoui_My-Module.pdf`](Yassine-Arfaoui_My-Module.pdf) ← **(Yassine Arfaoui)**
 - Screenshots & configs
 
