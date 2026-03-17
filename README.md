@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://i.imgur.com/YourLogoHere.png" width="180" alt="ESPRIT Logo">
   <h1>PI System & Network Project – Phase 3</h1>
   <h3>TechSolutions SARL – Multiservice Enterprise Network Infrastructure</h3>
 
