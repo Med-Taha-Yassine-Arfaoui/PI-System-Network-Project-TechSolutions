@@ -113,7 +113,7 @@ The infrastructure includes:
 
   ## 👤 My Individual Contribution (Yassine Arfaoui)
 
-**Module Focus:** [Write 1 short line here – e.g. "Security Implementation (Phase 3) + Monitoring Service + ACLs & GRE Tunneling"]
+**Module Focus:** [NFS:NETWORK FILE SHARING SYSTEM]
 
 📄 **My dedicated module documentation** (only my part):
 
